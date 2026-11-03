@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Informations de remboursement et droit de rétractation.">
+<meta name="theme-color" content="#FCC5F0">
+<title>Remboursement et rétractation — Crochet with Tessa</title>
+<link rel="icon" href="../images/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="../style/style.css">
+</head><body id="haut">
+<a class="skip-link" href="#contenu">Aller au contenu</a>
+<header class="site-header">
+  <div class="shop-nav container" aria-label="Navigation principale">
+    <div class="shop-nav-left">
+      <button class="header-icon-button" type="button" data-menu-open aria-label="Ouvrir le menu" aria-controls="site-side-menu" aria-expanded="false">
+        <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M5 9h22M5 16h22M5 23h22"/></svg>
+      </button>
+      <button class="header-icon-button" type="button" data-search-open aria-label="Rechercher dans la boutique" aria-controls="site-search-panel" aria-expanded="false">
+        <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="14" cy="14" r="8.5"/><path d="m20.5 20.5 6 6"/></svg>
+      </button>
+    </div>
+
+    <a class="header-logo" href="travail_projet.html" aria-label="Crochet with Tessa — accueil">
+      <img src="../images/logo.png" alt="Crochet with Tessa">
+    </a>
+
+    <div class="shop-nav-right">
+      <a class="header-icon-button header-cart" href="panier.html" aria-label="Voir le panier">
+        <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M8 11h16l1.3 16H6.7L8 11Z"/><path d="M12 11V8.5a4 4 0 0 1 8 0V11"/></svg>
+        <span class="header-cart-count" data-cart-count hidden>0</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<div class="side-menu" id="site-side-menu" data-menu-panel hidden>
+  <button class="panel-close" type="button" data-menu-close aria-label="Fermer le menu">×</button>
+  <nav class="side-menu-nav" aria-label="Menu de la boutique">
+    <a href="travail_projet.html">Accueil</a>
+    <a href="peluches.html">Peluches</a>
+    <a href="patrons.html">Patrons PDF</a>
+    <a href="commande-personnalisee.html">Commande personnalisée</a>
+    <a href="travail_projet.html#atelier">L’atelier</a>
+    <a href="travail_projet.html#faq">Questions fréquentes</a>
+    <a href="travail_projet.html#contact">Contact</a>
+    <a href="panier.html">Panier <span data-cart-count hidden>0</span></a>
+  </nav>
+  <div class="side-menu-footer">
+    <p>Des créations crochetées à la main, à adopter ou à réaliser soi-même.</p>
+    <a href="peluches.html">Découvrir toutes les peluches →</a>
+  </div>
+</div>
+<div class="panel-backdrop" data-panel-backdrop hidden></div>
+
+<div class="search-panel" id="site-search-panel" data-search-panel hidden>
+  <div class="search-panel-inner">
+    <form class="search-panel-form" action="recherche.html" method="get" role="search">
+      <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><circle cx="14" cy="14" r="8.5"/><path d="m20.5 20.5 6 6"/></svg>
+      <label class="visually-hidden" for="overlay-search-input">Rechercher une création</label>
+      <input id="overlay-search-input" data-overlay-search name="q" type="search" placeholder="Rechercher" autocomplete="off">
+      <button class="search-panel-close" type="button" data-search-close aria-label="Fermer la recherche">×</button>
+    </form>
+    <div class="search-panel-content">
+      <div class="search-panel-heading"><h2>Peluches</h2><a href="peluches.html">Toute la collection →</a></div>
+      <div class="search-product-grid">
+        <a class="search-product-card" data-overlay-search-item data-search-text="poppy elephant éléphant amigurumi peluche" href="produit-elephant.html"><img src="../images/elephant.jpg" alt="Poppy l’Éléphant"><span><strong>Poppy l’Éléphant</strong><small>55€</small></span></a>
+        <a class="search-product-card" data-overlay-search-item data-search-text="jules ballon amigurumi peluche" href="produit-ballon.html"><img src="../images/ballon.jpg" alt="Jules le Ballon"><span><strong>Jules le Ballon</strong><small>49€</small></span></a>
+        <a class="search-product-card" data-overlay-search-item data-search-text="moka capybara amigurumi peluche" href="produit-capybara.html"><img src="../images/capybara.jpg" alt="Moka le Capybara"><span><strong>Moka le Capybara</strong><small>35€</small></span></a>
+        <a class="search-product-card" data-overlay-search-item data-search-text="poppy girafe amigurumi peluche" href="produit-girafe.html"><img src="../images/girafe.jpg" alt="Poppy la Girafe"><span><strong>Poppy la Girafe</strong><small>55€</small></span></a>
+        <a class="search-product-card" data-overlay-search-item data-search-text="tutu pingouin amigurumi peluche" href="produit-pingouin.html"><img src="../images/pingouin.jpg" alt="Tutu le Pingouin"><span><strong>Tutu le Pingouin</strong><small>Voir la fiche</small></span></a>
+        <a class="search-product-card" data-overlay-search-item data-search-text="tortue amigurumi peluche" href="produit-tortue.html"><img src="../images/tortue.jpg" alt="Tortue au crochet"><span><strong>La Tortue</strong><small>Voir la fiche</small></span></a>
+      </div>
+      <div class="search-panel-heading search-pattern-heading"><h2>Patrons PDF</h2><a href="patrons.html">Voir les patrons →</a></div>
+    </div>
+  </div>
+</div><main id="contenu" class="legal-page"><section class="section-space"><div class="container legal-content"><p class="eyebrow">INFORMATIONS LÉGALES</p><h1>Remboursement & <em>rétractation</em></h1><h2>Délai de 14 jours</h2><p>Pour une vente à distance de biens physiques à un consommateur, le délai de rétractation est en principe de 14 jours à compter de la réception du bien, sauf exception prévue par la loi.</p><h2>Peluches non personnalisées</h2><p>Pour une peluche non personnalisée achetée à distance, le droit de rétractation s’applique en principe pendant 14 jours à compter de la réception, sauf exception prévue par la loi. Les modalités pratiques de retour sont communiquées avec la confirmation de commande.</p><h2>Remboursement</h2><p>En principe, le remboursement intervient au plus tard dans les 14 jours à compter de la date à laquelle le professionnel est informé de la décision de rétractation. Pour une vente de biens, le remboursement peut être différé jusqu’à récupération du bien ou jusqu’à la fourniture d’une preuve d’expédition, selon la règle applicable. Le remboursement est effectué avec le même moyen de paiement, sauf accord exprès pour un autre moyen sans frais supplémentaires.</p><h2>Créations personnalisées</h2><p>Le droit de rétractation ne s’applique pas aux biens confectionnés selon les spécifications du consommateur ou nettement personnalisés lorsque les conditions de l’exception légale sont réunies. Cette information est rappelée avant la validation d’une commande personnalisée.</p><h2>Patrons numériques</h2><p>Pour un contenu numérique fourni sans support matériel, l’envoi avant la fin du délai de rétractation n’entraîne la perte de ce droit que lorsque les conditions légales sont réunies, notamment l’accord exprès pour commencer l’exécution et la reconnaissance expresse de la perte du droit de rétractation.</p><h2 id="retractation-en-ligne">Se rétracter en ligne</h2><p>Si une commande a été conclue directement en ligne, cette fonctionnalité permet d’envoyer une déclaration de rétractation sans avoir à rédiger un courrier séparé.</p><form class="withdrawal-online-form" action="https://formsubmit.co/crochetswithtessa@gmail.com" method="POST" accept-charset="UTF-8"><input type="hidden" name="_subject" value="Rétractation — Crochet with Tessa"><input type="hidden" name="_template" value="table"><input type="hidden" name="_autoresponse" value="Votre demande de rétractation a bien été envoyée à Crochet with Tessa. Conservez cet e-mail comme preuve de votre démarche."><div class="withdrawal-fields"><div><label for="withdraw-name">Nom et prénom *</label><input id="withdraw-name" name="nom" autocomplete="name" maxlength="160" required></div><div><label for="withdraw-email">E-mail utilisé pour la commande *</label><input id="withdraw-email" name="email" type="email" autocomplete="email" maxlength="254" required></div><div><label for="withdraw-order">Référence de commande *</label><input id="withdraw-order" name="reference_commande" maxlength="100" required></div><div><label for="withdraw-date">Date de commande ou de réception</label><input id="withdraw-date" name="date_commande_ou_reception" type="date"></div><div class="withdrawal-full"><label for="withdraw-product">Produit(s) concerné(s) *</label><textarea id="withdraw-product" name="produits" maxlength="1200" required></textarea></div><div class="withdrawal-full"><label for="withdraw-message">Précision facultative</label><textarea id="withdraw-message" name="precision" maxlength="1200"></textarea></div></div><button class="button button-dark" type="submit">Envoyer ma rétractation <span aria-hidden="true">→</span></button><p class="privacy-short">Ces informations servent uniquement à identifier la commande, traiter la rétractation et te répondre. Elles sont transmises via FormSubmit à l’adresse de contact. <a href="confidentialite.html">En savoir plus sur tes données personnelles</a>.</p></form><h2>Formulaire type de rétractation</h2><div class="withdrawal-form"><p>À l’attention de : <strong>[À REMPLIR : nom et adresse du vendeur]</strong></p><p>Je vous notifie par la présente ma rétractation du contrat portant sur la vente du bien / service ci-dessous :</p><p>Commandé le / reçu le : ____________________</p><p>Nom du consommateur : ____________________</p><p>Adresse du consommateur : ____________________</p><p>Signature (uniquement en cas de notification papier) : ____________________</p><p>Date : ____________________</p></div></div></section></main><footer class="site-footer"><div class="container footer-main"><div class="footer-column"><a class="brand" href="travail_projet.html"><img src="../images/logo.png" alt="" class="brand-symbol"><span class="brand-name">Crochet <strong>with Tessa</strong><small>FAIT MAIN AVEC SOIN</small></span></a><p>De la douceur, maille après maille.</p></div><div class="footer-column"><h2>La boutique</h2><a href="peluches.html">Peluches</a><a href="patrons.html">Patrons PDF</a><a href="commande-personnalisee.html">Commande personnalisée</a><a href="panier.html">Panier</a></div><div class="footer-column"><h2>Informations légales</h2><a href="mentions-legales.html">Mentions légales</a><a href="cgv.html">CGV</a><a href="cgu.html">CGU</a><a href="confidentialite.html">Confidentialité</a><a href="cookies.html">Cookies</a><a href="retractation.html">Remboursement & rétractation</a><a href="retractation.html#retractation-en-ligne">Se rétracter en ligne</a></div></div><div class="container footer-bottom"><span>© Crochet with Tessa — créations au crochet</span><a href="#haut">Retour en haut ↑</a></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/site.js"></script>
+</body></html>
